@@ -1,0 +1,206 @@
+{
+  "users": [
+    {
+      "id": "usr_alex_chen_01",
+      "name": "Alex Chen",
+      "email": "alex.chen@mit.edu",
+      "password_hash": "$2a$10$TY.kWopEVmpeQSXFKAhfp.Wr7zPVlv1wlEh2gYiib1HNg5xAInSXi",
+      "college_name": "MIT School of Engineering",
+      "semester": "Semester 6 - Spring 2026",
+      "created_at": "2026-09-20T13:11:41.865Z"
+    },
+    {
+      "name": "Maya Lin",
+      "email": "student_1792501902175@stanford.edu",
+      "password_hash": "$2a$10$XMOnw0DFuQhJWtnJ19GDFuwxuEtzuPQxs/aHWlzGdssCHwGCf0cOm",
+      "college_name": "Stanford University",
+      "semester": "Semester 4 - Sophomore Spring",
+      "id": "usr_1792501902312_87wp5",
+      "created_at": "2026-10-20T13:11:42.312Z"
+    },
+    {
+      "name": "Raee Dere",
+      "email": "raeedere01@gmail.com",
+      "password_hash": "$2a$10$H4yH3TVArOoDT8AGrUOqre17Bv3aA4AuYvQCEoqJdiDetD3jVcoj.",
+      "college_name": "Indian Institute of Technology (IIT)",
+      "semester": "Semester 3 - Sophomore Fall",
+      "id": "usr_1792504252945_vqenv",
+      "created_at": "2026-10-20T13:50:52.945Z"
+    },
+    {
+      "name": "Maya Lin",
+      "email": "student_1792510384676@stanford.edu",
+      "password_hash": "$2a$10$2i.V9a9PjjFfvOwit38rTOb8uPzS34BwFpOPScGvpqwJqqtEYK.HK",
+      "college_name": "Stanford University",
+      "semester": "Semester 4 - Sophomore Spring",
+      "id": "usr_1792510384807_hpqyu",
+      "created_at": "2026-10-20T15:33:04.807Z"
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "task_002_dbms",
+      "user_id": "usr_alex_chen_01",
+      "title": "Group Case Study: Sharding vs Distributed Two-Phase Commit",
+      "course_name": "CS320: Database Management Systems",
+      "source": "WhatsApp",
+      "due_date": "2026-10-22T01:11:41.865Z",
+      "risk_score": "High",
+      "status": "Pending",
+      "estimated_hours": 4,
+      "description": "Extracted from \"CS320 Project Squad\" WhatsApp group chat. Professor posted update: Submission must include latency bench graphs and fault-tolerance tradeoffs.",
+      "tags": [
+        "Architecture",
+        "Team Project",
+        "Clash Candidate"
+      ],
+      "created_at": "2026-10-19T13:11:41.865Z"
+    },
+    {
+      "id": "task_003_ml",
+      "user_id": "usr_alex_chen_01",
+      "title": "Take-Home Project: Fine-Tuning Multi-Head Attention",
+      "course_name": "AI502: Advanced Deep Learning",
+      "source": "Email",
+      "due_date": "2026-10-23T01:11:41.865Z",
+      "risk_score": "Medium",
+      "status": "Pending",
+      "estimated_hours": 7,
+      "description": "Received via prof.lecun@university.edu. Implement FlashAttention kernel comparison and submit training loss curves on CIFAR-100.",
+      "tags": [
+        "PyTorch",
+        "Research",
+        "GPU Compute"
+      ],
+      "created_at": "2026-10-20T01:11:41.865Z"
+    },
+    {
+      "id": "task_004_cn",
+      "user_id": "usr_alex_chen_01",
+      "title": "Wireshark Packet Analysis 4: TCP Congestion Control Simulation",
+      "course_name": "CS312: Computer Networks",
+      "source": "Portal",
+      "due_date": "2026-10-24T13:11:41.865Z",
+      "risk_score": "Low",
+      "status": "Pending",
+      "estimated_hours": 2.5,
+      "description": "Campus Portal Assignment drop-box. Inspect PCAP trace of TCP Reno slow-start vs CUBIC fast recovery.",
+      "tags": [
+        "Wireshark",
+        "Analysis"
+      ],
+      "created_at": "2026-10-20T07:11:41.865Z"
+    },
+    {
+      "id": "task_005_ethics",
+      "user_id": "usr_alex_chen_01",
+      "title": "Ethical Implications of Autonomous Vehicle Decision Algorithms",
+      "course_name": "HASS220: Tech & Society",
+      "source": "PDF",
+      "due_date": "2026-10-26T13:11:41.865Z",
+      "risk_score": "Low",
+      "status": "Pending",
+      "estimated_hours": 3,
+      "description": "Parsed from course syllabus PDF page 14: 1500-word critical essay comparing utilitarian vs deontological decision trees in automotive safety.",
+      "tags": [
+        "Essay",
+        "Reading"
+      ],
+      "created_at": "2026-10-20T11:11:41.865Z"
+    },
+    {
+      "user_id": "usr_alex_chen_01",
+      "title": "Automata Theory Problem Set 4: Turing Machines",
+      "course_name": "CS301: Automata Theory",
+      "source": "Google Classroom",
+      "due_date": "2026-10-21T19:11:42.035Z",
+      "risk_score": "High",
+      "status": "Pending",
+      "estimated_hours": 4.5,
+      "description": "Design a 2-tape Turing machine for palindrome recognition.",
+      "tags": [],
+      "id": "task_1792501902049_0luy",
+      "created_at": "2026-10-20T13:11:42.049Z"
+    },
+    {
+      "user_id": "usr_alex_chen_01",
+      "title": "[WhatsApp CS420 Chat] TA Sarah: Reminder that Compiler Design Lab",
+      "course_name": "CS420",
+      "source": "WhatsApp",
+      "due_date": "2026-10-23T18:29:00.000Z",
+      "estimated_hours": 5,
+      "risk_score": "Medium",
+      "description": "[WhatsApp CS420 Chat] TA Sarah: Reminder that Compiler Design Lab 3 on Lexical Analysis is due Friday at 11:59 PM. Est 5 hrs.",
+      "tags": [
+        "Auto-Captured",
+        "WhatsApp"
+      ],
+      "status": "Pending",
+      "id": "task_1792501902148_7mnd",
+      "created_at": "2026-10-20T13:11:42.148Z"
+    },
+    {
+      "user_id": "usr_alex_chen_01",
+      "title": "Automata Theory Problem Set 4: Turing Machines",
+      "course_name": "CS301: Automata Theory",
+      "source": "Google Classroom",
+      "due_date": "2026-10-21T21:33:04.532Z",
+      "risk_score": "High",
+      "status": "Pending",
+      "estimated_hours": 4.5,
+      "description": "Design a 2-tape Turing machine for palindrome recognition.",
+      "tags": [],
+      "id": "task_1792510384545_rou1",
+      "created_at": "2026-10-20T15:33:04.545Z"
+    },
+    {
+      "user_id": "usr_alex_chen_01",
+      "title": "[WhatsApp CS420 Chat] TA Sarah: Reminder that Compiler Design Lab",
+      "course_name": "CS420",
+      "source": "WhatsApp",
+      "due_date": "2026-10-23T18:29:00.000Z",
+      "estimated_hours": 5,
+      "risk_score": "Medium",
+      "description": "[WhatsApp CS420 Chat] TA Sarah: Reminder that Compiler Design Lab 3 on Lexical Analysis is due Friday at 11:59 PM. Est 5 hrs.",
+      "tags": [
+        "Auto-Captured",
+        "WhatsApp"
+      ],
+      "status": "Pending",
+      "id": "task_1792510384649_nda9",
+      "created_at": "2026-10-20T15:33:04.649Z"
+    }
+  ],
+  "daily_action_plan": [
+    {
+      "task_id": "task_1792501902049_0luy",
+      "scheduled_time_start": "22:00",
+      "scheduled_time_end": "00:00",
+      "is_completed": false,
+      "notes": "[RESCUE MODE] Triage phase 1: Implement primary pass requirements and core tests.",
+      "id": "act_rescue_1792510384671_0",
+      "user_id": "usr_alex_chen_01",
+      "date": "2026-10-20"
+    },
+    {
+      "task_id": "task_1792510384545_rou1",
+      "scheduled_time_start": "00:15",
+      "scheduled_time_end": "02:15",
+      "is_completed": false,
+      "notes": "[RESCUE MODE] Triage phase 2: Draft essential submission components and eliminate fatal bugs.",
+      "id": "act_rescue_1792510384671_1",
+      "user_id": "usr_alex_chen_01",
+      "date": "2026-10-20"
+    },
+    {
+      "task_id": "task_003_ml",
+      "scheduled_time_start": "02:30",
+      "scheduled_time_end": "03:45",
+      "is_completed": false,
+      "notes": "[RESCUE MODE] Triage phase 2: Draft essential submission components and eliminate fatal bugs.",
+      "id": "act_rescue_1792510384671_2",
+      "user_id": "usr_alex_chen_01",
+      "date": "2026-10-20"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f8fafc;
+  --foreground: #1e293b;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --border: #e2e8f0;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  
+  /* Google Classroom Iconic Palette */
+  --gc-blue: #1a73e8;
+  --gc-blue-bg: #e8f0fe;
+  --gc-blue-border: #c2e7ff;
+  
+  --gc-green: #137333;
+  --gc-green-bg: #e6f4ea;
+  --gc-green-border: #ceead6;
+  
+  --gc-yellow: #ea8600;
+  --gc-yellow-bg: #fef7e0;
+  --gc-yellow-border: #feefc3;
+  
+  --gc-red: #d93025;
+  --gc-red-bg: #fce8e6;
+  --gc-red-border: #fad2cf;
+  
+  --gc-purple: #9334e6;
+  --gc-purple-bg: #f3e8fd;
+  --gc-purple-border: #e9d5ff;
+
+  --gc-teal: #007b83;
+  --gc-teal-bg: #e4f7f9;
+  --gc-teal-border: #b2ebf2;
+}
+
+.dark {
+  --background: #090d16;
+  --foreground: #f1f5f9;
+  --card: #0f172a;
+  --card-foreground: #f8fafc;
+  --border: #1e293b;
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+/* Crisp academic card styling */
+.classroom-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.08), 0 4px 8px 3px rgba(60, 64, 67, 0.04);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.classroom-card:hover {
+  box-shadow: 0 2px 6px 2px rgba(60, 64, 67, 0.15), 0 8px 16px 4px rgba(60, 64, 67, 0.06);
+}
+
+.dark .classroom-card {
+  background-color: #0f172a;
+  border-color: #1e293b;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.6);
+}
